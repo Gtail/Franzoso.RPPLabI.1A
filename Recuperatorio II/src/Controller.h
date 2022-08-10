@@ -1,0 +1,15 @@
+int controller_loadFromText(char* path , LinkedList* pArrayListPassenger);
+int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger);
+int controller_addPassenger(LinkedList* pArrayListPassenger);
+int controller_editPassenger(LinkedList* pArrayListPassenger);
+int controller_removePassenger(LinkedList* pArrayListPassenger);
+int controller_ListMovies(LinkedList* pArrayListPassenger);
+int controller_sortPassenger(LinkedList* pArrayListPassenger);
+int controller_saveAsText(char* path , LinkedList* pArrayListPassenger);
+int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger);
+int controller_SetRating(LinkedList *pArrayMovies);
+int controller_SetGenero(LinkedList* pArrayMovies);
+int controller_filterDrama(LinkedList* pArrayMovies);
+int controller_filterTerror(LinkedList* pArrayMovies);
+int controller_filterAccion(LinkedList* pArrayMovies);
+int controller_filterComedia(LinkedList* pArrayMovies);
